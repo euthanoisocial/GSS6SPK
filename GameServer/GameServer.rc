@@ -1,0 +1,429 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(65001)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GAMESERVER          ICON                    "../../Addon/Main_Full.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_GAMESERVER MENU
+BEGIN
+    POPUP "Tính Năng"
+    BEGIN
+       MENUITEM "Ngắt kết nối tất cả!",			IDM_FILE_ALLUSERLOGOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Ngắt kết nối ( 1 phút )",     IDM_FILE_1MINUTESERVERCLOSE
+        MENUITEM "Ngắt kết nối ( 3 phút )",     IDM_FILE_3MINUTESERVERCLOSE
+        MENUITEM "Ngắt kết nối ( 5 phút )",     IDM_FILE_5MINUTESERVERCLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "Thoát",                       IDM_EXIT
+    END
+    POPUP "Cập Nhật"
+    BEGIN
+        MENUITEM "01.Tải lại Tất Cả",           IDM_RELOAD_RELOADALL
+        MENUITEM "02.Tải lại CashShop",         IDM_RELOAD_RELOADCASHSHOP
+        MENUITEM "03.Tải lại ChaosMix",         IDM_RELOAD_RELOADCHAOSMIX
+        MENUITEM "04.Tải lại Character",        IDM_RELOAD_RELOADCHARACTER
+        MENUITEM "05.Tải lại Command",          IDM_RELOAD_RELOADCOMMAND
+        MENUITEM "06.Tải lại Common",           IDM_RELOAD_RELOADCOMMON
+        MENUITEM "07.Tải lại Custom",           IDM_RELOAD_RELOADCUSTOM
+        MENUITEM "08.Tải lại Event",            IDM_RELOAD_RELOADEVENT
+        MENUITEM "09.Tải lại ItemBag",          IDM_RELOAD_RELOADEVENTITEMBAG
+        MENUITEM "10.Tải lại Hack",             IDM_RELOAD_RELOADHACK
+        MENUITEM "11.Tải lại Item",             IDM_RELOAD_RELOADITEM
+        MENUITEM "12.Tải lại Monster",          IDM_RELOAD_RELOADMONSTER
+        MENUITEM "13.Tải lại Move",             IDM_RELOAD_RELOADMOVE
+        MENUITEM "14.Tải lại Quest",            IDM_RELOAD_RELOADQUEST
+        MENUITEM "15.Tải lại Shop",             IDM_RELOAD_RELOADSHOP
+        MENUITEM "16.Tải lại Skill",            IDM_RELOAD_RELOADSKILL
+        MENUITEM "17.Tải lại Util",             IDM_RELOAD_RELOADUTIL
+        MENUITEM "18.Tải lại SPK",              IDM_RELOAD_SUPERKHUNG
+        MENUITEM "19.Tải lại Bots",             IDM_RELOAD_RELOADBOTS
+    END
+    POPUP "Sự Kiện gốc"
+    BEGIN
+        POPUP "01 - Online nhận quà"
+        BEGIN
+            MENUITEM "Lorencia",                    IDM_STARTONLINELOTTERY_LORENCIA
+            MENUITEM "Devias",                      IDM_STARTONLINELOTTERY_DEVIAS
+            MENUITEM "Noria",                       IDM_STARTONLINELOTTERY_NORIA
+            MENUITEM "Elbeland",                    IDM_STARTONLINELOTTERY_ELBELAND
+        END
+        MENUITEM "02 - Khởi chạy Huyết Lâu",		IDM_STARTBC
+        MENUITEM "03 - Khởi chạy Quãng Truờng Quỷ", IDM_STARTDS
+        MENUITEM "04 - Khởi chạy Hỗn Nguyên Lâu",	IDM_STARTCC
+        MENUITEM "05 - Khởi chạy Trả Lời Vui",		IDM_STARTQUIZ
+        MENUITEM "06 - Start SkyEvent",				IDM_STARTSKYEVENT
+		MENUITEM "07 - Đấu Trường PK",				IDM_STARTBSV
+		MENUITEM "08 - Thần Ma Chiến",				ID_EVENTS_STARTTHANMACHIEN
+		MENUITEM "09 - Công Thành Chiến Mini",		IDM_EVENTS_CTCMINI
+		MENUITEM "10 - Đấu Trường Arena",			IDM_STARTArenaPvP
+    END
+    POPUP "Sự Kiện Custom"
+    BEGIN
+        MENUITEM "00 - Boss Vàng				", IDM_INVASION0
+        MENUITEM "01 - Thỏ Ngọc					", IDM_INVASION1
+        MENUITEM "02 - Rồng Ðỏ					", IDM_INVASION2
+        MENUITEM "03 - Erohim					", IDM_INVASION3
+        MENUITEM "04 - Rồng Hai Ðầu				", IDM_INVASION4
+        MENUITEM "05 - Siêu Boss				", IDM_INVASION5
+        MENUITEM "06 - Rương Báu Hoàng Tộc		", IDM_INVASION6
+        MENUITEM "07 - Boss Class				", IDM_INVASION7
+        MENUITEM "08 - Boss KingGold			", IDM_INVASION8
+        MENUITEM "09 - Mùa Hè					", IDM_INVASION9
+        MENUITEM "10 - Boss Hecarim				", IDM_INVASION10
+        MENUITEM "11 - Guardian					", IDM_INVASION11
+        MENUITEM "12 - Devil Satan				", IDM_INVASION12
+        MENUITEM "13 - Tuyệt Thế Vô Song		", IDM_INVASION13
+        MENUITEM "14 - Thần Ma Chi Bảo			", IDM_INVASION14
+        MENUITEM "15 - Long Hổ Tranh Hùng		", IDM_INVASION15
+        MENUITEM "16 - Thiên Sát Vương			", IDM_INVASION16
+        MENUITEM "17 - Ðại Ma Vuong				", IDM_INVASION17
+        MENUITEM "18 - Valen Demon				", IDM_INVASION18
+        MENUITEM "19 - Vạn Ðộc Vương			", IDM_INVASION19
+    END
+    POPUP "Quản Lý IP"
+    BEGIN
+        MENUITEM "Mem Online",                  IDM_ONLINEUSERS
+        MENUITEM "Khoá IP",                     IDD_BANNED
+    END
+    POPUP "Bot Fake"
+    BEGIN
+        MENUITEM "Reload Config",                  ID_FAKEONLINE_RELOADDATA
+        MENUITEM "Add BotFake",                     ID_FAKEONLINE_ADDFAKEONLINE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_GAMESERVER ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 147, 70
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System", 0, 0, 0x0
+BEGIN
+    ICON            IDI_GAMESERVER,IDC_MYICON,14,9,20,20
+    LTEXT           "GameServer Premium",IDC_STATIC,42,10,74,8,SS_NOPREFIX
+    LTEXT           "Files GamingMaster",IDC_STATIC,46,22,67,8
+    DEFPUSHBUTTON   "OK",IDOK,60,51,30,11,WS_GROUP
+    LTEXT           "Developer SuperKhung",IDC_STATIC,46,35,80,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 69
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "GameServer"
+    IDC_GAMESERVER          "GAMESERVER"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "../../Addon/ThemeSPK_4.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "GamingMU"
+            VALUE "FileDescription", "GameServer"
+            VALUE "FileVersion", "3.0.0.0"
+            VALUE "InternalName", "GameServer"
+            VALUE "LegalCopyright", "Copyright Â© SuperKhung 2023"
+            VALUE "OriginalFilename", "GameServer.exe"
+            VALUE "ProductName", "GameServer"
+            VALUE "ProductVersion", "3.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Mexico) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BANNED DIALOGEX 0, 0, 173, 209
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "System AntiFlood"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST2,16,27,140,117,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "IP BANNED",IDC_STATIC,19,14,135,11
+    DEFPUSHBUTTON   "Unban IP",IDC_BUTTONUB,15,150,141,24
+    PUSHBUTTON      "Cancel",IDOK,16,182,140,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_BANNED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Mexico) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Spain, International Sort) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 164, 76
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "License Invalid"
+FONT 10, "Lucida Console", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,59,48,50,14
+    CTEXT           "Licencia no compatible con el dispositivo, se trabajara demanera limitada",IDC_STATIC,6,12,150,33,SS_NOPREFIX,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Spain, International Sort) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Vietnamese (Vietnam) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_VIT)
+LANGUAGE LANG_VIETNAMESE, SUBLANG_DEFAULT
+#pragma code_page(1258)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ONLINEUSER DIALOGEX 0, 0, 216, 343
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "Online"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,123,42,89,17
+    LISTBOX         IDC_LIST1,19,26,96,307,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Online",IDC_STATIC,19,17,95,8
+    PUSHBUTTON      "Disconnect",IDC_BUTTONDC,123,25,89,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ONLINEUSER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Vietnamese (Vietnam) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
